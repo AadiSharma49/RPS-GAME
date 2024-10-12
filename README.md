@@ -14,7 +14,7 @@ This is a simple **Rock-Paper-Scissors** game built using **HTML**, **CSS**, and
 - Simple and intuitive UI.
 
 ## Demo
-You can check out a live demo of the game here: [RPS Game Demo](#) <!-- Add your GitHub Pages or any hosted link here -->
+You can check out a live demo of the game here: [RPS Game Demo](https://aadisharma49.github.io/RPS-GAME/) <!-- Add your GitHub Pages or any hosted link here -->
 
 ## How to Play
 1. Select **Rock**, **Paper**, or **Scissors** by clicking on the corresponding button.
