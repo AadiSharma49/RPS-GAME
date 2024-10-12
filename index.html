@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RPS GAME</title>
+</head>
+<body>
+
+    <!-- <h1>ROCK - PAPER - SCISSORS</h1> -->
+        <div class="glitch" data-text="ROCK - PAPER - SCISSORS">ROCK - PAPER - SCISSORS</div>
+
+
+    <div class="choice">
+    <button onclick="playgame('rock')">🪨</button>
+    <button onclick="playgame('paper')">📄</button>
+    <button onclick="playgame('scissors')">✂️</button> 
+    </div>
+
+    <div id="playerDisplay">PLAYER: </div><!--it diplay what player choose rock or paper or scissors which button we pick-->
+    <div id="CompuerDisplay">COMPUTER:</div><!-- this is same for as computer choose or pick-->
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Player Score:
+        <span id="playerScore">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer Score:
+        <span id="computerScore">0</span>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

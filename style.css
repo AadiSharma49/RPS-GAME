@@ -1,0 +1,109 @@
+body
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AEAEAE
+}
+.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #AEAEAE;
+ }
+ 
+ .glitch {
+   margin: 50px;
+   text-decoration: underline;
+    position: relative;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #343434;
+    letter-spacing: 3px;
+    animation: shift 4s ease-in-out infinite alternate;
+    transform: skewX(0deg);
+    z-index: 1;
+ }
+ 
+ @keyframes shift {
+    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+       transform: skewX(0deg);
+    }
+    41% {
+       transform: skewX(10deg);
+    }
+    42% {
+       transform: skewX(-10deg);
+    }
+    59% {
+       transform: skewX(35deg) skewY(10deg);
+    }
+    60% {
+       transform: skewX(-35deg) skewY(-10deg);
+    }
+    63% {
+       transform: skewX(10deg) skewY(-5deg);
+    }
+    70% {
+       transform: skewX(-30deg) skewY(-20deg);
+    }
+    71% {
+       transform: skewX(10deg) skewY(-10deg);
+    }
+ }
+.choice
+{
+    margin-bottom: 40px;
+}
+.choice button{
+    font-size: 8rem;
+    padding: 8px;
+    max-width: 200px;
+    margin: 21px 20px;
+    border-radius: 250px;
+    border: none;
+    background: #ff000000;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    cursor: pointer;
+    transition-duration: 500ms;
+   
+}
+.choice button:hover
+{
+    background-color: black;
+}
+
+#playerDisplay, #CompuerDisplay
+{
+   font-size: 3rem;
+   margin: 10px;
+}
+#resultDisplay
+{
+   font-size: 4rem;
+   margin: 38px 0px;
+}
+.green-text,#playerScore
+{
+   color: hsl(130, 80%, 59%);
+}
+.red-text,#computerScore
+{
+   color: hsl(0, 83%, 62%);
+}
+.yellow-text
+{
+   color: rgb(207, 207, 18);
+}
+.scoreDisplay
+{
+   font-size: 3rem;
+}
