@@ -46,5 +46,5 @@ RPS-Game/
 ├── style.css         # CSS for styling
 └── script.js         # JavaScript for game logic
 ```
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
